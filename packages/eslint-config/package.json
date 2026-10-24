@@ -1,0 +1,23 @@
+{
+  "name": "@weddy/eslint-config",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "files": [
+    "base.js",
+    "node.js",
+    "react.js"
+  ],
+  "exports": {
+    "./base": "./base.js",
+    "./node": "./node.js",
+    "./react": "./react.js"
+  },
+  "dependencies": {
+    "eslint": "^10.9.1",
+    "eslint-config-prettier": "^10.1.8",
+    "eslint-plugin-react-hooks": "^7.1.1",
+    "globals": "^17.11.0",
+    "typescript-eslint": "^8.68.0"
+  }
+}
